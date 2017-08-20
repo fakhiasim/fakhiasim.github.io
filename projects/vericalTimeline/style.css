@@ -1,0 +1,80 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+
+}
+.main-header{
+	background-color: #131339;
+	height: 320px;
+	text-align: center;
+	line-height: 320px;
+
+}
+.main-header h1{
+	color: #fff;
+	font-size: 62px;
+	font-weight: 200;
+}
+.timeline-main{
+
+}
+.t-main{
+
+}
+.t-header{
+	padding-bottom: 15px;
+	text-align: center;
+	font-weight: 200;
+	padding:20px;
+}
+.timeline{
+	background: url('images/blue.png') repeat-y 50% 0%;
+	padding: 15px;
+	width: 80%;
+	margin: auto;
+}
+.t-main-box{
+
+}
+.year{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: blue;
+	line-height: 70px;
+	text-align:center;
+	color: white;
+	margin: 70px auto;
+}
+.t-event{
+	width: 35%;
+	margin: 15px;
+	padding: 15;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	position: relative;
+}
+.t-event::after { 
+    content: "▸";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+.t-event-title{
+	font-size: 18px;
+	font-weight: 300;
+}
+.t-event-date{
+	font-size: 14px;
+}
+.t-event-body{
+	font-size: 14px;
+}
+.t-event-readmore{
+	font-size: 12px;
+}

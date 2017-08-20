@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url('images/backgroud.png');
+	background-size: auto;
+	background-attachment: scroll;
+	background-position: left top;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+}
+* {
+    transition: all 0.3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+div{
+	display: block;
+}
+#main_nav{
+	width: 100% !important;
+	margin-right: 0px;
+	margin-left: 0px;
+	min-height: 80px;
+	padding: 10px 15px;
+	border-radius: 10px 10px 0px 0px;
+}
+#nav_brand{
+	font-weight: bold;
+	font-size: 150%;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue !important;
+	color: white;
+}
+#nav{
+	font-weight: bold;
+	font-size: 120%;
+}
+#container{
+	width: 96% !important;
+	height: inherit;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.4);
+	margin: 0px auto;
+	margin-top: 25px;
+	border-radius: 10px 10px 10px 10px;
+}
+h1, h2, h3, h4, h5,h6{
+	font-family: 'Sanchez', serif;
+}
+
+#name{
+	color: #fff;
+	font-family: 'Sanchez', serif;
+	display: block;
+}
+
+#profile_pic{
+	margin: 5px;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	vertical-align: middle;
+}
+
+#contact_number{
+	text-align: center;
+	font-size: 120%;
+	font-style: bold;
+	color: #0092C4;
+}
+
+#email{
+	text-align: center;
+	font-size: 120%;
+	font-style: italic;
+	color: #0092C4;
+}
+#objective{
+	font-size: 16px;
+}
+#section{
+	font-family: 'Sanchez', serif,Helvetica;
+	font-size: 1.5em;
+	color: #D90D5B;
+	text-align: center;
+}
+#box_section{
+	border-bottom: 1px solid #353526;
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+#section_date{
+	font-size: 11px;
+	color: #0092C4;
+}
+#course_name{
+	margin-top: 0;
+	color: #fff;
+}
+#college_name{
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 14px;
+
+}
+
+#social_icon{
+	list-style-type: none;
+}
+#social_icon li a{
+	font-size: 15px;
+	display: inline;
+	float: right;
+	margin: 5px;
+	border-radius: 50%;
+	padding: 10px;
+	color: white;
+	background-color: black;
+	transition: .5s;
+	-o-transition: .5s;
+	-moz-transition: .5s;
+	-weblit-transition: .5s;
+}
+#copyright_text{
+	font-weight: 400;
+	padding-top: 20px;
+	float: left;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+#container_footer{
+	width: 80%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*-------Projects------*/
+#project-box{
+	margin: 10px 10px 10px 20px;
+}
+#single-project{
+	margin: 10px 10px 10px 50px;
+	padding: 10px;
+	background-color: rgba(79,108,255,0.5);
+}
+@media (max-width: 640px){
+	#single-project{
+	margin: 10px 10px 10px 20px;
+	padding: 10px;
+	background-color: rgba(79,108,255,0.5);
+}
+}
+
+#screenshot{
+	max-width: 90% auto;
+	max-height: 350px;
+}
+#project_name{
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 5px;
+	padding: 7px;
+	padding-bottom: 15px;
+}
+#project_name a{
+	text-decoration: none;
+	color: white;
+	font-weight: 270;
+	margin-bottom: 15px;
+	padding: 7px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+#view_project{
+	margin-top:10px;
+	width: 100px;
+	background: #ccc;
+	font-weight: 150px;
+	text-decoration: none;
+}
+#view_project a{
+	color: black;
+	background: #ccc;
+	font-weight: 150px;
+	text-decoration: none
+}
+#view_project a:hover{
+	background: black;
+	color: white;
+}
+#view_project:hover{
+	background: black;
+}
+
+
+
+
+
+
+
+
+
+label{
+	float: left;
+	text-align: left;
+}
+#form{
+	margin-bottom: 30px;
+}
+textarea{
+	margin-bottom: 5px;
+}
